@@ -1,0 +1,46 @@
+{
+    "Submissions": [{
+        "Level": 1,
+        "Questions": [{
+            "Q_No": 1,
+            "QuestionContent": "What is project cost management?",
+            "Answer": "Project cost management involves the processes required to ensure that a project is completed within the approved budget. It encompasses several key activities, including:\n\n1. **Cost Estimation**: Predicting the costs needed for project resources, labor, materials, and other expenses.\n2. **Cost Budgeting**: Allocating the estimated costs to individual work items to establish a cost baseline.\n3. **Cost Control**: Monitoring the project’s actual cost performance against the cost baseline, identifying variances, and implementing corrective actions to keep the project within budget.\n\nThe goal of project cost management is to manage and control the costs to ensure that the project is completed within the approved budget while meeting the project’s objectives and deliverables."
+        }]
+    },
+    {
+        "Level": 2,
+        "Questions": [{
+            "Q_No": 1,
+            "QuestionContent": "Why delay critical path will result into whole project delay?",
+            "Answer": "Delays in the critical path will result in the whole project being delayed because the critical path represents the longest sequence of dependent tasks required to complete the project. This sequence determines the shortest possible duration for the entire project. If any task on the critical path is delayed, there is no slack time available to absorb the delay, and thus, the completion of the entire project is pushed back. Since the critical path is the longest path through the project network, any delay in this path directly extends the project's overall duration."
+        },
+        {
+            "Q_No": 2,
+            "QuestionContent": "What is the Change Request (CR) threshold value for NEW under Business Area and NEA under Market Area?",
+            "Answer": "The Change Request (CR) threshold value for the category NEW under the Business Area and the Market Area NEA is 56,650 USD."
+        },
+        {
+            "Q_No": 3,
+            "QuestionContent": "Among 4 ABC CPPM control point, which one is 'Control not yet Deployed'?",
+            "Answer": "The control point listed as 'Control not yet Deployed' among the four ABC CPPM control points is CPPM-4."
+        }]
+    },
+    {
+        "Level": 3,
+        "Questions": [{
+            "Q_No": 1,
+            "QuestionContent": "What is project decided planned cost and project decided planned revenue? What is corresponding actual cost, Net Sales as project ID of former question?",
+            "Answer": "The project decided planned cost is 1,500,000, and the project decided planned revenue is 2,000,000.\n\nFor the project with Project ID 35000005, the corresponding actual cost is 1,098,732, and the Net Sales is 1,100,000."
+        },
+        {
+            "Q_No": 2,
+            "QuestionContent": "What are the conditions for projects in CU XYZ need to obtain a CR approval from the MA Head? Also list Project ID, Project Name, CR ID and CR name of CRs that should be obtained a approval of MA Head.",
+            "Answer": "The conditions for projects in CU XYZ to obtain a CR approval from the MA Head are:\n\n1. If the CR meets the escalation threshold.\n2. If the CR involves a UM change of -100MSEK or more negative value.\n\nUnfortunately, the provided context does not include specific Project IDs, Project Names, CR IDs, or CR Names. If you need detailed list, you would need to refer to the project documentation or records within your organization's project management system."
+        },
+        {
+            "Q_No": 3,
+            "QuestionContent": "Whether project (which project ID is the same as in the Project decision document) total actual cost is within planned cost?Total actual cost of project = actual cost of WBS 1 + … + actual cost of WBS 10",
+            "Answer": "The project ID in the Project decision document is 65001006. To determine if the total actual cost is within the planned cost, we need to sum the actual costs of all WBS elements associated with Project ID 65001006 and compare it to the planned cost.\n\nHere are the actual costs for each WBS element of Project ID 65001006:\n\n- XYZ19.M01006.XX.01: 310100 CNY\n- XYZ19.M01006.XX.02: 236320 CNY\n- XYZ19.M01006.XX.03: 424190 CNY\n- XYZ19.M01006.XX.04: 100000 CNY\n- XYZ19.M01006.XX.05: 383630 CNY\n- XYZ19.M01006.XX.06: 280866 CNY\n- XYZ19.M01006.XX.07: 868250 CNY\n- XYZ19.M01006.XX.08: 380000 CNY\n- XYZ19.M01006.XX.09: 115440 CNY\n- XYZ19.M01006.XX.10: 420000 CNY\n\nTotal actual cost = 310100 + 236320 + 424190 + 100000 + 383630 + 280866 + 868250 + 380000 + 115440 + 420000 = 3510796 CNY\n\nThe planned cost for the project, according to the total project summary, is 3,500,000 CNY.\n\nComparing the two values:\n- Total actual cost: 3,510,796 CNY\n- Planned cost: 3,500,000 CNY\n\nThe total actual cost (3,510,796 CNY) exceeds the planned cost (3,500,000 CNY) by 10,796 CNY. Therefore, the total actual cost is not within the planned cost for the project."
+        }]
+    }]
+}
